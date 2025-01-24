@@ -1,8 +1,5 @@
 name: ci-go-workflow
-on: 
-  pull_request:
-    branches:
-      - main
+on: [push]
 
 jobs: 
   check-application:
