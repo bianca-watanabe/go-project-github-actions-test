@@ -6,7 +6,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v2   #essa action baixa os arquivos para a maquina ubuntu que configuramos acima em runs-on (sem isso a pipeline nao funcionará)
       - name: Set up Go
         uses: actions/setup-go@v2
         with:
